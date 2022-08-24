@@ -19,7 +19,7 @@ function App() {
       <Pricing />
       <Gallery />
       <Contact />
-      <Footer />
+      <Footer /> 
     </div>
   );
 }
