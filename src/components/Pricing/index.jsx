@@ -5,7 +5,7 @@ import './responsive.css'
 
 const Pricing = () => {
   return (
-    <div>Pricing</div>
+    <section>Pricing</section>
   )
 }
 

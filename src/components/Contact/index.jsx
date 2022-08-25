@@ -5,7 +5,7 @@ import './responsive.css'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <section>Contact</section>
   )
 }
 

@@ -5,7 +5,7 @@ import './responsive.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>Footer</footer>
   )
 }
 
