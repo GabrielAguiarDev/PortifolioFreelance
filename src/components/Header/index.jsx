@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 import { CgLivePhoto } from 'react-icons/cg'
 
 import './header.css'
@@ -8,25 +9,83 @@ const Header = () => {
   return (
     <header>
       <div className="container">
-        <a href="#logo" className="logo"><CgLivePhoto /> Well Souza</a>
+        <Link
+          className="logo"
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          <CgLivePhoto /> 
+          Well Souza
+        </Link>
         <ul>
           <li>
-            <a href="#home">Inicio</a>
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Inicio
+            </Link>
           </li>
           <li>
-            <a href="#about">Sobre</a>
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Sobre
+          </Link>
           </li>
           <li>
-            <a href="#services">Serviços</a>
+          <Link
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Serviços
+          </Link>
           </li>
           <li>
-            <a href="#pricing">Preços</a>
+          <Link
+            to="pricing"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Preços
+          </Link>
           </li>
           <li>
-            <a href="#gallery">Galeria</a>
+          <Link
+            to="gallery"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Galeria
+          </Link>
           </li>
           <li>
-            <a href="#contact">Contato</a>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Contato
+          </Link>
           </li>
         </ul>
       </div>

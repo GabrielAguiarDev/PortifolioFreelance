@@ -5,7 +5,9 @@ import './responsive.css'
 
 const Contact = () => {
   return (
-    <section>Contact</section>
+    <section className='contact' name='contact'>
+      Contact
+    </section>
   )
 }
 

@@ -5,7 +5,9 @@ import './responsive.css'
 
 const Gallery = () => {
   return (
-    <section>Gallery</section>
+    <section className='gallery' name='gallery'>
+      Gallery
+    </section>
   )
 }
 

@@ -52,12 +52,27 @@ h2 {
 section {
   width: 100vw;
   height: 100vh;
+  padding-top: 2%;
 }
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 ul {
   list-style: none;
+}
+
+@keyframes show {
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes showImage {
+  to {
+    opacity: 1;
+  }
 }

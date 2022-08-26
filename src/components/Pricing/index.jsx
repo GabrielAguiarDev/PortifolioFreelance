@@ -5,7 +5,9 @@ import './responsive.css'
 
 const Pricing = () => {
   return (
-    <section>Pricing</section>
+    <section className='pricing' name='pricing'>
+      Pricing
+    </section>
   )
 }
 
