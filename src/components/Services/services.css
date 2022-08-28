@@ -1,0 +1,175 @@
+.services {
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 4%;
+}
+
+.services h2 {
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.services .description {
+    width: 38%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.services .services-items {
+    display: grid;
+    grid-template-areas: "1 2 3";
+    height: 65%;
+}
+
+.services .services-items .photography {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 445px;
+    padding-left: 10%;
+    border-right: 1px solid var(--text);
+    border-bottom: 1px solid var(--text);
+}
+
+.services .services-items .photography svg {
+    font-size: 48px;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.services .services-items .photography h3 {
+    font-size: 23px;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.services .services-items .photography p {
+    width: 85%;
+}
+
+.services .services-items .videography {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 445px;
+    padding-left: 10%;
+    border-right: 1px solid var(--text);
+    border-bottom: 1px solid var(--text);    
+}
+
+.services .services-items .videography svg {
+    font-size: 48px;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.services .services-items .videography h3 {
+    font-size: 23px;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.services .services-items .videography  p {
+    width: 85%;
+}
+
+.services .services-items .Photo-Retouching {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 445px;
+    padding-left: 10%;
+    border-bottom: 1px solid var(--text);
+}
+
+.services .services-items .Photo-Retouching svg {
+    font-size: 48px;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.services .services-items .Photo-Retouching h3 {
+    font-size: 23px;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.services .services-items .Photo-Retouching p {
+    width: 85%;
+}
+
+.services .services-items .lightning-Setup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 445px;
+    padding-left: 10%;
+    border-right: 1px solid var(--text);
+}
+
+.services .services-items .lightning-Setup img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 1rem;
+}
+
+.services .services-items .lightning-Setup h3 {
+    font-size: 23px;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.services .services-items .lightning-Setup p {
+    width: 85%;
+}
+
+.services .services-items .video-Color-Grading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 445px;
+    padding-left: 10%;
+    border-right: 1px solid var(--text);
+}
+
+.services .services-items .video-Color-Grading img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 1rem;
+}
+
+.services .services-items .video-Color-Grading h3 {
+    font-size: 23px;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.services .services-items .video-Color-Grading p {
+    width: 85%;
+}
+
+.services .services-items .mug-Photography {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 445px;
+    padding-left: 10%;
+}
+
+.services .services-items .mug-Photography svg {
+    font-size: 48px;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.services .services-items .mug-Photography h3 {
+    font-size: 23px;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.services .services-items .mug-Photography p {
+    width: 85%;
+}

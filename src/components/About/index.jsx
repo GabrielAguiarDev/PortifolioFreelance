@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section className="about" name="about">
       <div className="container-about">
-        <div className="about">
+        <div className="about" data-aos="fade-right">
           <h2>
             Hello, I'm Well Souza, a professional photographer based on New York
           </h2>
@@ -35,7 +35,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="about-image">
+        <div className="about-image" data-aos="fade-left">
           <div className="image">
             <img
               src={process.env.PUBLIC_URL + "/images/profile_2.jpg"}
