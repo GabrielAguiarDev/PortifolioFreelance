@@ -1,3 +1,100 @@
 .gallery {
     background-color: var(--main-color);
+    padding: 1% 7%;
+}
+ .gallery h2 {
+    margin-top: 1rem;
+    color: var(--secondary-color);
+ }
+
+.gallery .underline {
+    height: 1px;
+    width: 29rem;
+    background-color: var(--text);
+    margin-top: 0.5rem;
+    opacity: 0.4;
+}
+
+.gallery ul {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: -8px;
+}
+
+.gallery ul li {
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: all ease 0.4s;
+    color: var(--text);
+    cursor: pointer;
+}
+
+.gallery ul li.active {
+    color: var(--secondary-color);
+}
+
+.gallery ul li:hover {
+    color: var(--secondary-color);
+}
+
+.gallery .container-images .images {
+    height: 75%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.gallery .container-images .images::-webkit-scrollbar-thumb {
+    background-color: var(--text);
+    border-radius: 5px;
+  }
+  
+.gallery .container-images .images::-webkit-scrollbar {
+    width: 10px;
+}
+
+.gallery .container-images .images::-webkit-scrollbar-track {
+    background-color: var(--main-color);
+}
+
+.gallery .container-images .images > div {
+    display: none;
+}
+
+.gallery .container-images .images > .active {
+    display: grid;
+    grid-template-areas: "1 2 3 4 5";
+    margin-top: 1rem;
+}
+
+.gallery .container-images .images .active .cardImage {
+    opacity: 0;
+    position: relative;
+    animation: showDisplay 0.5s 0s forwards;
+}
+
+.gallery .container-images .images .active .cardImage:hover span {
+    height: 45px;
+}
+
+.gallery .container-images .images .active .cardImage:hover img {
+    filter: grayscale(0);
+}
+
+.gallery .container-images .images .active .cardImage span {
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 75%;
+    background-color: #000000cf;
+    transition: all ease 0.4s 0.5s;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.gallery .container-images .images .active .cardImage img {
+    width: 260px;
+    height: 160px;
+    filter: grayscale(1);
+    transition: all ease 1s;
 }

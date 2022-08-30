@@ -46,6 +46,7 @@ const Home = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                className="active"
               >
                 Galeria
               </Link>
@@ -83,10 +84,25 @@ const Home = () => {
               alias, tenetur aut perspiciatis.
             </p>
             <div className="links">
-              <a href="#myWork" className="active">
+              <Link
+                to="gallery"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="active"
+              >
                 Galeria
-              </a>
-              <a href="#contactMe">Contato</a>
+              </Link>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Contato
+              </Link>
             </div>
           </div>
           <div className="changeImage">
