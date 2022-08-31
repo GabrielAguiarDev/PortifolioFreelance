@@ -1,6 +1,7 @@
 .gallery {
     background-color: var(--main-color);
     padding: 1% 7%;
+    height: 120vh;
 }
  .gallery h2 {
     margin-top: 1rem;
@@ -9,7 +10,7 @@
 
 .gallery .underline {
     height: 1px;
-    width: 29rem;
+    width: 25rem;
     background-color: var(--text);
     margin-top: 0.5rem;
     opacity: 0.4;
@@ -38,12 +39,6 @@
     color: var(--secondary-color);
 }
 
-.gallery .container-images .images {
-    height: 75%;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-
 .gallery .container-images .images::-webkit-scrollbar-thumb {
     background-color: var(--text);
     border-radius: 5px;
@@ -62,8 +57,9 @@
 }
 
 .gallery .container-images .images > .active {
-    display: grid;
-    grid-template-areas: "1 2 3 4 5";
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
     margin-top: 1rem;
 }
 
@@ -74,7 +70,8 @@
 }
 
 .gallery .container-images .images .active .cardImage:hover span {
-    height: 45px;
+    height: 60px;
+    padding: 8px 10px;
 }
 
 .gallery .container-images .images .active .cardImage:hover img {
@@ -87,14 +84,15 @@
     height: 0;
     width: 75%;
     background-color: #000000cf;
-    transition: all ease 0.4s 0.5s;
+    transition: all ease 0.4s 0.2s;
     overflow: hidden;
     z-index: 2;
 }
 
 .gallery .container-images .images .active .cardImage img {
-    width: 260px;
-    height: 160px;
+    width: 410px;
+    height: 100%;
+    border-radius: 5px;
     filter: grayscale(1);
     transition: all ease 1s;
 }

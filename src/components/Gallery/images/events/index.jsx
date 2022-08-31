@@ -27,22 +27,6 @@ const Events = ({ active }) => {
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
             <img src={process.env.PUBLIC_URL + "/images/gallery/events/event-5.jpg"} alt="imagem do evento" />
         </div>
-        <div className="cardImage">
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            <img src={process.env.PUBLIC_URL + "/images/gallery/events/event-6.jpg"} alt="imagem do evento" />
-        </div>
-        <div className="cardImage">
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            <img src={process.env.PUBLIC_URL + "/images/gallery/events/event-7.jpg"} alt="imagem do evento" />
-        </div>
-        <div className="cardImage">
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            <img src={process.env.PUBLIC_URL + "/images/gallery/events/event-8.jpg"} alt="imagem do evento" />
-        </div>
-        <div className="cardImage">
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            <img src={process.env.PUBLIC_URL + "/images/gallery/events/event-9.jpg"} alt="imagem do evento" />
-        </div>
     </div>
   )
 }

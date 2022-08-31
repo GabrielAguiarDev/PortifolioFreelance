@@ -27,8 +27,8 @@ const Gallery = () => {
         <li className={gallery === "personal" ? "active" : ""} onClick={() => {classActive("personal")}}>Pessoal</li>
         <li className={gallery === "wedding" ? "active" : ""} onClick={() => {classActive("wedding")}}>Casamento</li>
         <li className={gallery === "events" ? "active" : ""} onClick={() => {classActive("events")}}>Eventos</li>
-        <li className={gallery === "fashion" ? "active" : ""} onClick={() => {classActive("fashion")}}>Fashion</li>
         <li className={gallery === "product" ? "active" : ""} onClick={() => {classActive("product")}}>Produtos</li>
+        <li className={gallery === "fashion" ? "active" : ""} onClick={() => {classActive("fashion")}}>A mais linda</li>
       </ul>
       <div className="container-images" data-aos="fade-up">
         <div className={gallery ? "images " + gallery : "images"}>

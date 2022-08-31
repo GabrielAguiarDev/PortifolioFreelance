@@ -5,7 +5,7 @@ const Personal = ({ active }) => {
     <div className={`${active}`}>
         <div className="cardImage">
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            <img src={process.env.PUBLIC_URL + "/images/gallery/personal/personal-00.jpg"} alt="imagem do evento" />
+            <img src={process.env.PUBLIC_URL + "/images/gallery/personal/personal-0.jpg"} alt="imagem do evento" />
         </div>
         <div className="cardImage">
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
@@ -26,22 +26,6 @@ const Personal = ({ active }) => {
         <div className="cardImage">
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
             <img src={process.env.PUBLIC_URL + "/images/gallery/personal/personal-5.jpg"} alt="imagem do evento" />
-        </div>
-        <div className="cardImage">
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            <img src={process.env.PUBLIC_URL + "/images/gallery/personal/personal-6.jpg"} alt="imagem do evento" />
-        </div>
-        <div className="cardImage">
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            <img src={process.env.PUBLIC_URL + "/images/gallery/personal/personal-7.jpg"} alt="imagem do evento" />
-        </div>
-        <div className="cardImage">
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            <img src={process.env.PUBLIC_URL + "/images/gallery/personal/personal-8.jpg"} alt="imagem do evento" />
-        </div>
-        <div className="cardImage">
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            <img src={process.env.PUBLIC_URL + "/images/gallery/personal/personal-9.jpg"} alt="imagem do evento" />
         </div>
     </div>
   )
