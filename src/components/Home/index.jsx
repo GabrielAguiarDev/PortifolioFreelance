@@ -21,7 +21,6 @@ const Home = () => {
   return (
     <section className="home" name="home">
       <div className="diagonal"></div>
-
       <div
         className={
           fadePortfolio ? "container-portfolio active" : "container-portfolio"

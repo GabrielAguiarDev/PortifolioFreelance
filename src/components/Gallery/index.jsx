@@ -12,7 +12,7 @@ import Product from './images/product'
 
 const Gallery = () => {
 
-  const [gallery, setGallery] = useState("personal");
+  const [gallery, setGallery] = useState("all");
 
   function classActive(className) {
     setGallery(className)
