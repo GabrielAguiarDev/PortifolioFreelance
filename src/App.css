@@ -59,6 +59,7 @@ footer {
   width: 100vw;
   height: 100vh;
   padding-top: 1%;
+  background-color: var(--main-color);
 }
 
 a {

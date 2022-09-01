@@ -5,7 +5,19 @@ const Fashion = ({ active }) => {
     <div className={`${active}`}>
         <div className="cardImage">
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            <img src={process.env.PUBLIC_URL + "/images/gallery/fashion/fashion.jpg"} alt="imagem do evento" />
+            <img src={process.env.PUBLIC_URL + "/images/gallery/fashion/fashion-1.jpg"} alt="imagem do evento" />
+        </div>
+        <div className="cardImage">
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            <img src={process.env.PUBLIC_URL + "/images/gallery/fashion/fashion-2.jpg"} alt="imagem do evento" />
+        </div>
+        <div className="cardImage">
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            <img src={process.env.PUBLIC_URL + "/images/gallery/fashion/fashion-3.jpg"} alt="imagem do evento" />
+        </div>
+        <div className="cardImage">
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            <img src={process.env.PUBLIC_URL + "/images/gallery/fashion/fashion-0.jpg"} alt="imagem do evento" />
         </div>
     </div>
   )
