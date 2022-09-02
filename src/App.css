@@ -57,7 +57,7 @@ section {
 
 footer {
   width: 100vw;
-  height: 100vh;
+  height: 35vh;
   padding-top: 1%;
   background-color: var(--main-color);
 }

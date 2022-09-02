@@ -7,10 +7,8 @@ import "./responsive.css";
 
 const Home = () => {
   const [fadePortfolio, setFadePortfolio] = useState(true);
-  const [fadePerson, setFadePerson] = useState(false);
 
-  function handleImage(e) {
-    setFadePerson(!fadePerson);
+  function handleImage() {
     setFadePortfolio(!fadePortfolio);
   }
 
@@ -23,7 +21,7 @@ const Home = () => {
       <div className="diagonal"></div>
       <div
         className={
-          fadePortfolio ? "container-portfolio active" : "container-portfolio"
+          fadePortfolio === true ? "container-portfolio active" : "container-portfolio"
         }
       >
         <div className="portfolio">
@@ -68,7 +66,7 @@ const Home = () => {
       </div>
 
       <div
-        className={fadePerson ? "container-person active" : "container-person"}
+        className={fadePortfolio === false ? "container-person active" : "container-person"}
       >
         <div className="person">
           <img
