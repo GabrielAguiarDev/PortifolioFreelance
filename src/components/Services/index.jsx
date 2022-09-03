@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <section className='services' name='services'>
       <h2 data-aos="fade-up">Meus Serviços</h2>
-      <p className="description" data-aos="fade-up" data-aos-delay="700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, repudiandae minus aliquamt.</p>
+      <p className="description" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, repudiandae minus aliquamt.</p>
       <div className="services-items">
         <div className="photography" data-aos="zoom-in-up" data-aos-duration="500">
           <BsCamera />

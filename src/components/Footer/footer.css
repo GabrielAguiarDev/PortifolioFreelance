@@ -1,31 +1,39 @@
-.parallax {
+footer {
+    width: 100vw;
+    height: 90vh;
+    padding: 0;
+    margin-top: 1rem;
+    background-color: var(--main-color);
+}
+
+footer .parallax {
     display: flex;
     justify-content: space-around;
     height: 51vh;
     width: 101%;
     box-shadow: inset 6px 6px 13px 0px #00000057;
-    background-image: url('../../../public/images/gallery/parallax/parallax-3.jpg');
+    background-image: url('../../../public/images/gallery/parallax/parallax-5.jpg');
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
-    filter: grayscale(1);
+    filter: grayscale(0);
 }
 
-.parallax .link {
+footer .parallax .link {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    margin-left: 6rem;
+    margin-left: 7rem;
 }
 
-.parallax .link h3 {
+footer .parallax .link h3 {
     color: var(--secondary-color);
     font-size: 25px;
 }
 
-.parallax .link a {
+footer .parallax .link a {
     padding: 12px 40px;
     color: var(--main-color);
     border: 3px solid var(--secondary-color);
@@ -36,12 +44,12 @@
     transition: all ease 0.3s;
 }
   
-.parallax a:hover {
+footer .parallax a:hover {
     background-color: transparent;
     color: var(--secondary-color);
 }
 
-.parallax .cardFloat {
+footer .parallax .cardFloat {
     position: relative;
     top: 115px;
     width: 400px;
@@ -51,6 +59,185 @@
     box-shadow: 6px 6px 14px #00000042;
 }
 
-.parallax .cardFloatFloat .card1 {
+footer .parallax .cardFloat .card1 {
+    display: none;
+}
 
+footer .parallax .cardFloat .card1.active {
+    display: block;
+    animation: showCard 1s 0s forwards;
+}
+
+footer .parallax .cardFloat .card2 {
+    display: none;
+}
+
+footer .parallax .cardFloat .card2.active {
+    display: block;
+    animation: showCard 1s 0s forwards;
+}
+
+footer .parallax .cardFloat >  div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+footer .parallax .cardFloat > div > .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+footer .parallax .cardFloat > div > .card-info .aspas {
+    position: absolute;
+    bottom: 10px;
+    right: 36px;
+    width: 75px;
+    opacity: 0.4;
+}
+
+footer .parallax .cardFloat > div > .card-info p {
+    display: flex;
+    align-items: center;
+    height: 9rem;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 2rem;
+    margin: 0 auto;
+    border-left: 2px solid;
+}
+
+
+footer .parallax .cardFloat > div > .card-info .profile {
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer .parallax .cardFloat > div > .card-info .profile img {
+    width: 62px;
+    border-radius: 50%;
+    filter: grayscale(1);
+}
+
+footer .parallax .cardFloat > div > .card-info .profile .profile-info h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+footer .footer-info {
+    background-color: var(--main-color);
+}
+
+footer .footer-info .footer-container {
+    display: flex;
+    width: 60%;
+    height: 75%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer .footer-info .footer-container .footer-left {
+    width: 43%;
+    padding-left: 1rem;
+}
+
+footer .footer-info .footer-container .footer-left p {
+    width: 80%;
+}
+
+footer .footer-info .footer-container .footer-left .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: var(--secondary-color);
+    font-family: 'Eczar', serif;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+footer .footer-info .footer-container .footer-left .footer-logo svg {
+    font-size: 40px;
+}
+
+footer .footer-info .footer-container .underline {
+    width: 1px;
+    height: 10rem;
+    background-color: var(--text);
+    opacity: 0.5;
+    margin: 0;
+}
+
+footer .footer-info .footer-container .footer-center {
+    width: 50%;
+    padding: 0 6rem;
+}
+
+footer .footer-info .footer-container .footer-center h4 {
+    font-size: 20px;
+    color: var(--secondary-color);
+}
+
+footer .footer-info .footer-container .footer-center ul {
+    list-style: disc;
+    margin: 0.5rem 0 0 1.5rem;
+}
+
+footer .footer-info .footer-container .footer-center ul li {
+    margin-bottom: 5px;
+}
+
+footer .footer-info .footer-container .footer-center ul li a {
+    font-size: 17px;
+    transition: all ease 0.4s;
+}
+
+footer .footer-info .footer-container .footer-center ul li a:hover {
+    color: var(--secondary-color);
+}
+
+footer .footer-info .underline {
+    width: 95%;
+    height: 1px;
+    background-color: var(--text);
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-bottom: 1.2rem;
+}
+
+footer .footer-info .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+}
+
+footer .footer-info .footer-bottom p {
+    font-size: 15px;
+}
+
+footer .footer-info .footer-bottom ul {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .footer-info .footer-bottom ul a {
+    color: var(--text);
+    transition: all ease 0.4s;
+}
+
+footer .footer-info .footer-bottom ul a:hover {
+    color: var(--secondary-color);
+}
+
+footer .footer-info .footer-bottom ul a li {
+    font-size: 20px;
 }
