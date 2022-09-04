@@ -6,7 +6,7 @@ import "./responsive.css";
 
 const About = () => {
   return (
-    <section className="about" name="about">
+    <section id="about" name="about">
       <div className="container-about">
         <div className="about" data-aos="fade-right">
           <h2>

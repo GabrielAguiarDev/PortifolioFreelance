@@ -20,6 +20,10 @@ header .container {
   height: 100%;
 }
 
+header .container .menu {
+  display: none;
+}
+
 header .container .logo {
     display: flex;
     justify-content: center;

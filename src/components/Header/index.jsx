@@ -1,11 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import { CgLivePhoto } from 'react-icons/cg'
+import { HiMenu } from "react-icons/hi"
 
 import './header.css'
 import './responsive.css'
 
 const Header = () => {
+
+  const [menu, setMenu] = useState(true);
+
+  function handleMenu(e) {
+    e.preventDefault();
+    setMenu(!menu)
+  }
+
   return (
     <header>
       <div className="container">
@@ -20,6 +29,7 @@ const Header = () => {
           <CgLivePhoto /> 
           Well Souza
         </Link>
+        <HiMenu className={!menu ? "menu active" : "menu"} onClick={handleMenu} />
         <ul>
           <li>
             <Link

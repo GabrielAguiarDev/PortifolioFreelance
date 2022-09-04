@@ -12,9 +12,9 @@ const Home = () => {
     setFadePortfolio(!fadePortfolio);
   }
 
-  useEffect(() => {
-    setTimeout(handleImage, 8000);
-  });
+  // useEffect(() => {
+  //   setTimeout(handleImage, 8000);
+  // });
 
   return (
     <section className="home" name="home">

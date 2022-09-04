@@ -1,0 +1,75 @@
+@media (max-width: 1030px) {
+    .container-about .about h2 {
+        font-size: 21px;
+    }
+
+    .container-about .about-image .image img {
+        width: 330px;
+    }
+}
+
+@media (max-width: 880px) {
+    #about {
+        height: 135vh;
+    }
+
+    .container-about {
+        flex-direction: column;
+        padding: 4% 3%;
+    }
+
+    .container-about .about {
+        margin: 0;
+        min-width: 100%;
+    }
+
+    .container-about .about h2 {
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    .container-about .about p {
+        display: inline-block;
+        width: 45%;
+        margin-bottom: 1rem;
+        margin-right: 10%;
+        font-size: 16px;    
+    }
+
+    .container-about .about ul {
+        width: 45%;
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+
+    .container-about .about ul li svg {
+        font-size: 35px;
+    }
+
+    .container-about .about .about-bottom {
+        justify-content: center;
+    }
+
+    .container-about .about-image {
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-left: 4rem;
+    }
+
+    .container-about .about-image .image::before {
+        content: '';
+        position: absolute;
+        top: 20px;
+        right: -5px;
+        left: 159px;
+        bottom: 0;
+        height: 94%;
+        background-color: #2b2b2b;
+    }
+
+    .container-about .about .about-image .image img {
+        width: 300px;
+    }
+}
