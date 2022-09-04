@@ -1,3 +1,9 @@
+@media (max-width: 1200px) {
+    .about {
+        height: 105%;
+    }
+}
+
 @media (max-width: 1030px) {
     .container-about .about h2 {
         font-size: 21px;

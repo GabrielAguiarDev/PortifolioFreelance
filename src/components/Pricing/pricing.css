@@ -65,7 +65,17 @@
     margin-bottom: 10px;
 }
 
-.pricing-container .pricing-plan .image img {
+.pricing-container .pricing-plan .image-standart img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.pricing-container .pricing-plan .image-premium img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.pricing-container .pricing-plan .image-platinum img {
     width: 350px;
     border-radius: 10px;
 }

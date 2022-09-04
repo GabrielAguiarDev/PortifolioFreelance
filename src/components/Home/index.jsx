@@ -6,7 +6,7 @@ import "./home.css";
 import "./responsive.css";
 
 const Home = () => {
-  const [fadePortfolio, setFadePortfolio] = useState(true);
+  const [fadePortfolio, setFadePortfolio] = useState(false);
 
   function handleImage() {
     setFadePortfolio(!fadePortfolio);

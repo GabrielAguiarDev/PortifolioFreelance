@@ -1,0 +1,9 @@
+@media (max-width: 735px) {
+    .gallery .container-images .images.all .active .cardImage img {
+        max-width: 444px;
+    }
+
+    .gallery .container-images .images .active .cardImage img {
+        max-width: 444px;
+    }
+}

@@ -1,0 +1,53 @@
+@media (max-width: 1340px) {
+    .services {
+        height: 130vh;
+    }
+
+    .services .services-items {
+        grid-template-areas: "1 2";
+        height: 100%;
+    }
+
+    .services .services-items > div {
+        padding: 1rem 0 1rem 10%;
+    }
+
+    .services .services-items .videography {
+        border-right: none;
+    }
+
+    .services .services-items .Photo-Retouching {
+        border-right: 1px solid var(--text);
+    }
+
+    .services .services-items .lightning-Setup {
+        border-right: none;
+        border-bottom: 1px solid var(--text);
+    }
+}
+
+@media (max-width: 920px) {
+    .services {
+        height: 200vh
+    }
+
+    .services .description {
+        width: 60%;
+    }
+    .services .services-items {
+        grid-template-areas: "1";
+    }
+
+    .services .services-items .videography {
+        border-left: 1px solid var(--text);
+    }
+
+    .services .services-items .lightning-Setup {
+        border-left: 1px solid var(--text);
+    }
+
+    .services .services-items .mug-Photography {
+        border-top: 1px solid var(--text);
+        border-left: 1px solid var(--text);
+    }
+}

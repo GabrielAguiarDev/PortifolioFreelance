@@ -23,7 +23,7 @@ const Pricing = () => {
               <li>Galeria on-line</li>
             </ul>
           </div>
-          <div className="image">
+          <div className="image-standart">
             <img src={process.env.PUBLIC_URL + "/images/pricing-standart.jpg"} alt="Preço Padrão" />
           </div>
         </div>
@@ -41,7 +41,7 @@ const Pricing = () => {
               <li>Galeria on-line</li>
             </ul>
           </div>
-          <div className="image">
+          <div className="image-premium">
             <img src={process.env.PUBLIC_URL + "/images/pricing-premium.jpg"} alt="Preço prêmio" />
           </div>
         </div>
@@ -59,7 +59,7 @@ const Pricing = () => {
               <li>Galeria on-line</li>
             </ul>
           </div>
-          <div className="image">
+          <div className="image-platinum">
             <img src={process.env.PUBLIC_URL + "/images/pricing-platinum.jpg"} alt="Preço platina" />
           </div>
         </div>

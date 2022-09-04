@@ -2,6 +2,10 @@
   .home .container-portfolio .portfolio .info h1 {
     font-size: 3.5rem;
   }
+
+  .home .container-person .person .info h1 {
+    font-size: 3.5rem;
+  }
 }
 
 @media (max-width: 1030px) {
@@ -25,9 +29,34 @@
     font-size: 16px;
     padding: 12px 35px;
   }
+
+  .home .container-person .person .info {
+    width: 55%;
+  }
+
+  .home .container-person .person .info span {
+    font-size: 17px;
+  }
+
+  .home .container-person .person .info h1 {
+    font-size: 2.5rem;
+  }
+
+  .home .container-person .person .info p {
+    font-size: 17px;
+  }
+
+  .home .container-person .person .info .links a {
+    font-size: 16px;
+    padding: 12px 35px;
+  }
 }
 
 @media (max-width: 660px) {
+  .home .container-portfolio .portfolio .changeImage {
+    right: 13rem;
+  }
+
   .home .container-portfolio .portfolio img {
     filter: brightness(0.4);
   }
@@ -44,6 +73,29 @@
   }
 
   .home .container-portfolio .portfolio .info .links {
+    width: 18rem;
+  }
+
+  .home .container-person .person .changeImage {
+    right: 13rem;
+  }
+
+  .home .container-person .person img {
+    filter: brightness(0.4);
+  }
+
+  .home .container-person .person .info {
+    width: 100%;
+    padding: 5rem;
+    align-items: center;
+    background: transparent;
+  }
+
+  .home .container-person .person .info p {
+    text-align: center;
+  }
+
+  .home .container-person .person .info .links {
     width: 18rem;
   }
 }
