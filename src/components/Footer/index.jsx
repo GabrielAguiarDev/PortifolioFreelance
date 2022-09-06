@@ -76,7 +76,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="underline"></div>
-          <div className="footer-center">
+          <div className="footer-right">
             <h4>Links Rápidos</h4>
             <ul>
               <li>

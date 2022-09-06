@@ -6,9 +6,9 @@ import "./responsive.css";
 
 const About = () => {
   return (
-    <section id="about" name="about">
+    <section className="about" name="about">
       <div className="container-about">
-        <div className="about" data-aos="fade-right">
+        <div className="about-info" data-aos="fade-right">
           <h2>
             Hello, I'm Well Souza, a professional photographer based on New York
           </h2>

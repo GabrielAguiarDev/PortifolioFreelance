@@ -17,7 +17,7 @@ const Contact = () => {
           <ul>
             <li data-aos="zoom-in-up" data-aos-delay="300"><IoIosCall /> <div className="info">Ligue para mim <span>+55 (73) 9 9916-5406</span></div></li>
             <li data-aos="zoom-in-up" data-aos-delay="400"><MdOutlineMail /> <div className="info">Envie-me um e-mail <span>wellsouza@gmail.com</span></div></li>
-            <li data-aos="zoom-in-up" data-aos-delay="500"><GoLocation /> <div className="info">Visite meu escritório <span>Santa C. Cabrália, R. dos Tupinambás, n° 225</span></div></li>
+            <li data-aos="zoom-in-up" data-aos-delay="500"><GoLocation /> <div className="info">Visite meu escritório <span>Endereço</span></div></li>
           </ul>
         </div>
         <div className="contact-form" data-aos="fade-left">

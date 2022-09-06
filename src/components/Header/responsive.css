@@ -1,13 +1,13 @@
 @media (max-width: 760px) {
     header .container {
-        margin-left: 5rem;
+        margin-left: 10%;
         justify-content: left;
     }
 
     header .container .menu {
         display: block;
         position: absolute;
-        right: 4rem;
+        right: 2rem;
         font-size: 35px;
         cursor: pointer;
         transition: all ease 0.4s;
@@ -22,7 +22,7 @@
         pointer-events: auto;
         transform: scale(1);
         top: 5rem;
-        right: 4rem;
+        right: 2rem;
     }
 
     header .container ul {
@@ -54,5 +54,16 @@
         padding: 1rem 2rem;
         font-size: 20px;
         text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    header .container {
+        margin-left: 1rem;
+    }
+
+    header .container ul {
+        right: 2rem;
+        top: 3rem;
     }
 }

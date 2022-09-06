@@ -2,7 +2,7 @@ header {
   position: fixed;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 100vw;
   background-color: var(--main-color);
   z-index: 99;
   padding-right: 0;

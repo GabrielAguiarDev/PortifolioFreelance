@@ -5,38 +5,38 @@
 }
 
 @media (max-width: 1030px) {
-    .container-about .about h2 {
+    .about .container-about .about-info h2 {
         font-size: 21px;
     }
 
-    .container-about .about-image .image img {
+    .about .container-about .about-image .image img {
         width: 330px;
     }
 }
 
 @media (max-width: 880px) {
-    #about {
+    .about {
         height: 135vh;
     }
 
-    .container-about {
+    .about .container-about {
         flex-direction: column;
         padding: 4% 3%;
     }
 
-    .container-about .about {
+    .about .container-about .about-info {
         margin: 0;
         min-width: 100%;
     }
 
-    .container-about .about h2 {
+    .about .container-about .about-info h2 {
         text-align: center;
         width: 70%;
         margin: 0 auto;
         margin-bottom: 2rem;
     }
 
-    .container-about .about p {
+    .about .container-about .about-info p {
         display: inline-block;
         width: 45%;
         margin-bottom: 1rem;
@@ -44,27 +44,26 @@
         font-size: 16px;    
     }
 
-    .container-about .about ul {
+    .about .container-about .about-info ul {
         width: 45%;
         display: inline-block;
         margin-bottom: 1rem;
     }
 
-    .container-about .about ul li svg {
+    .about .container-about .about-info ul li svg {
         font-size: 35px;
     }
 
-    .container-about .about .about-bottom {
+    .about .container-about .about-info .about-bottom {
         justify-content: center;
     }
 
-    .container-about .about-image {
+    .about .container-about .about-image {
         margin: 0 auto;
         margin-top: 3rem;
-        margin-left: 4rem;
     }
 
-    .container-about .about-image .image::before {
+    .about .container-about .about-image .image::before {
         content: '';
         position: absolute;
         top: 20px;
@@ -75,7 +74,51 @@
         background-color: #2b2b2b;
     }
 
-    .container-about .about .about-image .image img {
+    .about .container-about .about-info .about-image .image img {
+    width: 300px;
+    }
+}
+
+@media (max-width: 470px) {
+    .about {
+        height: 145vh;
+    }
+
+    .about .container-about {
+        flex-direction: column;
+        padding: 10% 3%;
+    }
+
+    .about .container-about .about-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .container-about .about-info h2 {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .about .container-about .about-info p {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .about .container-about .about-info ul {
+        width: 90%;
+        margin-top: 1rem;
+    }
+
+    .about .container-about .about-image {
+        margin-top: 4rem;
+    }
+
+    .about .container-about .about-image .image img {
         width: 300px;
     }
 }

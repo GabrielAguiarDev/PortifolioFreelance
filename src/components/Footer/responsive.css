@@ -1,3 +1,77 @@
-@media (max-width: 1070px) {
+@media (max-width: 1075px) {
+    footer .footer-info .footer-container .footer-right {
+        padding: 0 3rem;
+    }
+}
 
+@media (max-width: 920px) {
+    footer {
+        margin-top: 5rem;
+    }
+
+    footer .parallax {
+        flex-direction: column;
+        height: 72vh;
+    }
+
+    footer .parallax .link {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    footer .parallax .cardFloat {
+        top: 8rem;
+        width: 310px;
+        height: 277px;
+        margin: 0 auto;
+    }
+
+    footer .parallax .cardFloat > div > .card-info .aspas {
+        bottom: 25px;
+        right: 20px;
+        width: 50px;
+    }
+
+    footer .footer-info {
+        padding-top: 25%;
+    }
+
+    footer .footer-info .footer-container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    footer .footer-info .footer-container .footer-left {
+        width: 50%;
+    }
+
+    footer .footer-info .footer-container .footer-left p {
+        width: 90%;
+    }
+
+    footer .footer-info .footer-bottom {
+        padding: 0 2.5rem 1rem 2.5rem;
+    }
+
+    footer .footer-info .footer-bottom p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 365px) {
+    footer .parallax .cardFloat {
+        width: 310px;
+    }
+
+    footer .parallax .cardFloat > div > .card-info img {
+        width: 50px
+    }
+
+    footer .parallax .cardFloat > div > .card-info p {
+        font-size: 17px;
+    }
+
+    footer .footer-info .footer-bottom  {
+        padding-left: 1rem;
+    }
 }

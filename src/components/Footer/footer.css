@@ -176,31 +176,31 @@ footer .footer-info .footer-container .underline {
     margin: 0;
 }
 
-footer .footer-info .footer-container .footer-center {
+footer .footer-info .footer-container .footer-right {
     width: 50%;
     padding: 0 6rem;
 }
 
-footer .footer-info .footer-container .footer-center h4 {
+footer .footer-info .footer-container .footer-right h4 {
     font-size: 20px;
     color: var(--secondary-color);
 }
 
-footer .footer-info .footer-container .footer-center ul {
+footer .footer-info .footer-container .footer-right ul {
     list-style: disc;
     margin: 0.5rem 0 0 1.5rem;
 }
 
-footer .footer-info .footer-container .footer-center ul li {
+footer .footer-info .footer-container .footer-right ul li {
     margin-bottom: 5px;
 }
 
-footer .footer-info .footer-container .footer-center ul li a {
+footer .footer-info .footer-container .footer-right ul li a {
     font-size: 17px;
     transition: all ease 0.4s;
 }
 
-footer .footer-info .footer-container .footer-center ul li a:hover {
+footer .footer-info .footer-container .footer-right ul li a:hover {
     color: var(--secondary-color);
 }
 

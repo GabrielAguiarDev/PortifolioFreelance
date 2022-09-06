@@ -1,20 +1,20 @@
-.container-about {
+.about .container-about {
     display: flex;
     justify-content: space-around;
     padding: 0 3%;
 }
 
-.container-about .about {
+.about .container-about .about-info {
     max-width: 35vw;
     margin-top: 3rem;
 }
 
-.container-about .about h2 {
+.about .container-about .about-info h2 {
     color: var(--main-color);
     margin-bottom: 2rem;
 }
 
-.container-about .about p {
+.about .container-about .about-info p {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.7em;
@@ -22,11 +22,11 @@
     margin-bottom: 20px;
 }
 
-.container-about .about ul {
+.about .container-about .about-info ul {
     margin-bottom: 1.5rem;
 }
 
-.container-about .about ul li {
+.about .container-about .about-info ul li {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -34,12 +34,12 @@
     margin-bottom: 5px;
 }
 
-.container-about .about ul li svg {
+.about .container-about .about-info ul li svg {
     font-size: 40px;
     color: var(--main-color);
 }
 
-.container-about .about .underline {
+.about .container-about .about-info .underline {
     width: 100%;
     height: 2px;
     margin-bottom: 1.5rem;
@@ -47,22 +47,22 @@
     opacity: 0.1;
 }
 
-.container-about .about .about-bottom {
+.about .container-about .about-info .about-bottom {
     display: flex;
     gap: 35px;
 }
 
-.container-about .about .about-bottom img {
+.about .container-about .about-info .about-bottom img {
     width: 90px;
 }
 
-.container-about .about .about-bottom .about-name {
+.about .container-about .about-info .about-bottom .about-name {
     color: var(--main-color);
     font-size: 21px;
     font-weight: 600;
 }
 
-.container-about .about .about-bottom .about-name span {
+.about .container-about .about-info .about-bottom .about-name span {
     display: block;
     margin-top: 10px;
     color: var(--text);
@@ -70,19 +70,19 @@
     font-weight: 400;
 }
 
-.container-about .about-image {
+.about .container-about .about-image {
     margin-top: 3rem;
     max-height: 39rem;
     max-width: 30rem;
     position: relative;
 }
 
-.container-about .about-image .image {
+.about .container-about .about-image .image {
     padding: 0 30px 30px 15px;
     position: relative;
 }
 
-.container-about .about-image .image::after {
+.about .container-about .about-image .image::after {
     content: '';
     width: 50%;
     position: absolute;
@@ -94,7 +94,7 @@
     z-index: -1;
 }
 
-.container-about .about-image .image::before {
+.about .container-about .about-image .image::before {
     content: '';
     position: absolute;
     top: 24px;
@@ -105,7 +105,7 @@
     background-color: #2b2b2b;
 }
 
-.container-about .about-image .image img {
+.about .container-about .about-image .image img {
     width: 400px;
     position: relative;
     z-index: 2;
@@ -113,6 +113,6 @@
     transition: all ease 0.4s;
 }
 
-.container-about .about-image .image img:hover {
+.about .container-about .about-image .image img:hover {
     transform: scale(0.95);
 }

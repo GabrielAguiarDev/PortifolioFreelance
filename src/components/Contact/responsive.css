@@ -43,3 +43,29 @@
         width: 51%;
     }
 }
+
+@media (max-width: 365px) {
+    .contact .diagonal {
+        top: -40px;
+    }
+
+    .contact .container-contact .contact-info p {
+        width: 95%;
+    }
+
+    .contact .container-contact .contact-info ul li {
+        margin-bottom: 0;
+    }
+
+    .contact .contact-form {
+        margin-top: 2rem;
+    }
+
+    .contact .container-contact .contact-form form input[type="email"] {
+        width: 100%;
+    }
+
+    .contact .container-contact .contact-form form #number {
+        width: 100%;
+    }
+}

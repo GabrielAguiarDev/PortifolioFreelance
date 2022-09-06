@@ -51,3 +51,23 @@
         border-left: 1px solid var(--text);
     }
 }
+
+@media (max-width: 365px) {
+    .services {
+        height: 250vh;
+        padding: 4%;
+    }
+
+    .services .description {
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .services .services-items {
+        width: 100%;
+    }
+
+    .services .services-items > div {
+        width: 92vw;
+    }
+}

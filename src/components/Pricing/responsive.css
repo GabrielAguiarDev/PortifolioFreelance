@@ -58,3 +58,44 @@
         max-width: 31rem;
     }
 }
+
+@media (max-width: 555px) {
+    .pricing {
+        height: 200vh;
+    }
+
+    .pricing .pricing-container .pricing-plan {
+        width: 90vw;
+    }
+
+    .pricing .pricing-container .pricing-plan .pricing-info {
+        padding-left: 2rem;
+    }
+
+    .pricing .pricing-container .pricing-plan .pricing-info h3 {
+        padding-bottom: 1rem;
+    }
+
+    .pricing .pricing-container .pricing-plan .pricing-info .value {
+        margin-bottom: 2rem;
+    }
+
+    .pricing .pricing-container .pricing-plan .image-standart img {
+        position: absolute;
+        right: 0;
+        filter: brightness(0.4);
+    }
+
+    .pricing .pricing-container .pricing-plan .image-premium img {
+        position: absolute;
+        right: 0;
+        filter: brightness(0.4);
+    }
+
+    .pricing .pricing-container .pricing-plan .image-platinum img {
+        position: absolute;
+        right: 0;
+        filter: brightness(0.4);
+    }
+    
+}
