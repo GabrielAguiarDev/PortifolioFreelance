@@ -1,22 +1,22 @@
 @media (max-width: 735px) {
-    .gallery .underline {
-        width: 87vw;
-    }
+  .gallery .underline {
+    width: 87vw;
+  }
 
-    .gallery ul {
-        width: 90vw;
-    }
+  .gallery ul {
+    width: 90vw;
+  }
 
-    .gallery ul li {
-        font-size: 17px;
-        padding: 8px 4px;
-    }
+  .gallery ul li {
+    font-size: 17px;
+    padding: 8px 4px;
+  }
 
-    .gallery .container-images .images.all .active .cardImage img {
-        max-width: 444px;
-    }
+  .gallery .container-images .images.all .active .cardImage img {
+    max-width: 444px;
+  }
 
-    .gallery .container-images .images .active .cardImage img {
-        max-width: 444px;
-    }
+  .gallery .container-images .images .active .cardImage img {
+    max-width: 444px;
+  }
 }

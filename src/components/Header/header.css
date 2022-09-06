@@ -25,17 +25,17 @@ header .container .menu {
 }
 
 header .container .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
-    color: var(--secondary-color);
-    font-family: 'Eczar', serif;
-    font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  color: var(--secondary-color);
+  font-family: "Eczar", serif;
+  font-size: 20px;
 }
 
 header .container .logo svg {
-    font-size: 47px;
+  font-size: 47px;
 }
 
 header .container ul {
@@ -56,5 +56,5 @@ header .container ul li a {
 }
 
 header .container ul li a:hover {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }

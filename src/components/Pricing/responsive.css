@@ -1,101 +1,100 @@
 @media (max-width: 1180px) {
-    .pricing {
-        height: 215vh;
-    }
+  .pricing {
+    height: 215vh;
+  }
 
-    .pricing .pricing-container {
-        flex-direction: column;
-    }
-    
-    .pricing .pricing-container .pricing-plan {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        width: 40rem;
-        height: 400px;
-        background-color: black;
-        border-radius: 10px;
-    }
+  .pricing .pricing-container {
+    flex-direction: column;
+  }
 
-    .pricing .pricing-container .pricing-plan .pricing-info {
-        position: relative;
-        padding: 0;
-        padding-left: 3rem;
-        z-index: 1;
-    }
+  .pricing .pricing-container .pricing-plan {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+  }
 
-    .pricing .pricing-container .pricing-plan .pricing-info h3 {
-        font-size: 35px;
-        padding-bottom: 5rem;
-        margin: 0;
-    }
+  .pricing .pricing-container .pricing-plan .pricing-info {
+    position: relative;
+    padding: 0;
+    padding-left: 3rem;
+    z-index: 1;
+  }
 
-    .pricing .pricing-container .pricing-plan .pricing-info ul {
-        text-align: left;
-    }
+  .pricing .pricing-container .pricing-plan .pricing-info h3 {
+    font-size: 35px;
+    padding-bottom: 5rem;
+    margin: 0;
+  }
 
-    .pricing .pricing-container .pricing-plan .image {
-        position: relative;
-        height: 100%;
-        width: 100%;
-    }
+  .pricing .pricing-container .pricing-plan .pricing-info ul {
+    text-align: left;
+  }
 
-    .pricing .pricing-container .pricing-plan .image-standart img {
-        width: 300px;
-    }
+  .pricing .pricing-container .pricing-plan .image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
 
-    .pricing .pricing-container .pricing-plan .image-premium img {
-        width: 300px;
-    }
+  .pricing .pricing-container .pricing-plan .image-standart img {
+    width: 300px;
+  }
 
-    .pricing .pricing-container .pricing-plan .image-platinum img {
-        width: 300px;
-    }
+  .pricing .pricing-container .pricing-plan .image-premium img {
+    width: 300px;
+  }
+
+  .pricing .pricing-container .pricing-plan .image-platinum img {
+    width: 300px;
+  }
 }
 
 @media (max-width: 680px) {
-    .pricing .pricing-container .pricing-plan {
-        max-width: 31rem;
-    }
+  .pricing .pricing-container .pricing-plan {
+    max-width: 31rem;
+  }
 }
 
 @media (max-width: 555px) {
-    .pricing {
-        height: 200vh;
-    }
+  .pricing {
+    height: 200vh;
+  }
 
-    .pricing .pricing-container .pricing-plan {
-        width: 90vw;
-    }
+  .pricing .pricing-container .pricing-plan {
+    width: 90vw;
+  }
 
-    .pricing .pricing-container .pricing-plan .pricing-info {
-        padding-left: 2rem;
-    }
+  .pricing .pricing-container .pricing-plan .pricing-info {
+    padding-left: 2rem;
+  }
 
-    .pricing .pricing-container .pricing-plan .pricing-info h3 {
-        padding-bottom: 1rem;
-    }
+  .pricing .pricing-container .pricing-plan .pricing-info h3 {
+    padding-bottom: 1rem;
+  }
 
-    .pricing .pricing-container .pricing-plan .pricing-info .value {
-        margin-bottom: 2rem;
-    }
+  .pricing .pricing-container .pricing-plan .pricing-info .value {
+    margin-bottom: 2rem;
+  }
 
-    .pricing .pricing-container .pricing-plan .image-standart img {
-        position: absolute;
-        right: 0;
-        filter: brightness(0.4);
-    }
+  .pricing .pricing-container .pricing-plan .image-standart img {
+    position: absolute;
+    right: 0;
+    filter: brightness(0.4);
+  }
 
-    .pricing .pricing-container .pricing-plan .image-premium img {
-        position: absolute;
-        right: 0;
-        filter: brightness(0.4);
-    }
+  .pricing .pricing-container .pricing-plan .image-premium img {
+    position: absolute;
+    right: 0;
+    filter: brightness(0.4);
+  }
 
-    .pricing .pricing-container .pricing-plan .image-platinum img {
-        position: absolute;
-        right: 0;
-        filter: brightness(0.4);
-    }
-    
+  .pricing .pricing-container .pricing-plan .image-platinum img {
+    position: absolute;
+    right: 0;
+    filter: brightness(0.4);
+  }
 }

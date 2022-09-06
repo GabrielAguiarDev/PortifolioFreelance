@@ -7,16 +7,15 @@ import "./footer.css";
 import "./responsive.css";
 
 const Footer = () => {
-
-  const [card, setCard] = useState(true)
+  const [card, setCard] = useState(true);
 
   const moveCard = () => {
-    setCard(!card)
-  }
+    setCard(!card);
+  };
 
   useEffect(() => {
-    setTimeout(moveCard, 8000)
-  })
+    setTimeout(moveCard, 8000);
+  });
 
   return (
     <footer>
@@ -37,10 +36,21 @@ const Footer = () => {
         <div className="cardFloat" data-aos="fade-left">
           <div className={card === true ? "card1 active" : "card1"}>
             <div className="card-info">
-              <img src={process.env.PUBLIC_URL + "/images/aspas.png"} className="aspas" alt="aspas" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates facilis rem accusantium sit harum autem, tempore qui saepe.</p>
+              <img
+                src={process.env.PUBLIC_URL + "/images/footer/aspas.png"}
+                className="aspas"
+                alt="aspas"
+              />
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptates facilis rem accusantium sit harum autem, tempore qui
+                saepe.
+              </p>
               <div className="profile">
-                <img src={process.env.PUBLIC_URL + "/images/profile-bia.jpg"} alt="perfil-bia" />
+                <img
+                  src={process.env.PUBLIC_URL + "/images/footer/profile-bia.jpg"}
+                  alt="perfil-bia"
+                />
                 <div className="profile-info">
                   <h4>Beatriz Almeida</h4>
                   <span>Advogada</span>
@@ -50,10 +60,21 @@ const Footer = () => {
           </div>
           <div className={card === false ? "card2 active" : "card2"}>
             <div className="card-info">
-              <img src={process.env.PUBLIC_URL + "/images/aspas.png"} className="aspas" alt="aspas" />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, atque. Pariatur placeat expedita, dolorum sequi autem eligendi doloribus.</p>
+              <img
+                src={process.env.PUBLIC_URL + "/images/footer/aspas.png"}
+                className="aspas"
+                alt="aspas"
+              />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium, atque. Pariatur placeat expedita, dolorum sequi
+                autem eligendi doloribus.
+              </p>
               <div className="profile">
-                <img src={process.env.PUBLIC_URL + "/images/profile-manu.jpg"} alt="perfil-manu" />
+                <img
+                  src={process.env.PUBLIC_URL + "/images/footer/profile-manu.jpg"}
+                  alt="perfil-manu"
+                />
                 <div className="profile-info">
                   <h4>Manu Oliveira</h4>
                   <span>Fotógrafa</span>

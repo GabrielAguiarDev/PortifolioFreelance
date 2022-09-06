@@ -1,110 +1,110 @@
 .gallery {
-    background-color: var(--main-color);
-    padding: 1% 7%;
-    height: 125vh;
+  background-color: var(--main-color);
+  padding: 1% 7%;
+  height: 125vh;
 }
- .gallery h2 {
-    margin-top: 1rem;
-    color: var(--secondary-color);
- }
+.gallery h2 {
+  margin-top: 1rem;
+  color: var(--secondary-color);
+}
 
 .gallery .underline {
-    height: 1px;
-    width: 25rem;
-    background-color: var(--text);
-    margin-top: 0.5rem;
-    opacity: 0.4;
+  height: 1px;
+  width: 25rem;
+  background-color: var(--text);
+  margin-top: 0.5rem;
+  opacity: 0.4;
 }
 
 .gallery ul {
-    display: flex;
-    align-items: center;
-    margin-top: 1rem;
-    margin-left: -8px;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: -8px;
 }
 
 .gallery ul li {
-    font-size: 18px;
-    padding: 5px 10px;
-    transition: all ease 0.4s;
-    color: var(--text);
-    cursor: pointer;
+  font-size: 18px;
+  padding: 5px 10px;
+  transition: all ease 0.4s;
+  color: var(--text);
+  cursor: pointer;
 }
 
 .gallery ul li.active {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .gallery ul li:hover {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .gallery .container-images .images::-webkit-scrollbar-thumb {
-    background-color: var(--text);
-    border-radius: 5px;
-  }
-  
+  background-color: var(--text);
+  border-radius: 5px;
+}
+
 .gallery .container-images .images::-webkit-scrollbar {
-    width: 13px;
+  width: 13px;
 }
 
 .gallery .container-images .images::-webkit-scrollbar-track {
-    border-radius: 5px;
-    background-color: black;
+  border-radius: 5px;
+  background-color: black;
 }
 
 .gallery .container-images .images > div {
-    display: none;
+  display: none;
 }
 
 .gallery .container-images .images > .active {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .gallery .container-images .images .active .cardImage {
-    opacity: 0;
-    position: relative;
-    animation: showDisplay 0.5s 0s forwards;
+  opacity: 0;
+  position: relative;
+  animation: showDisplay 0.5s 0s forwards;
 }
 
 .gallery .container-images .images .active .cardImage:hover span {
-    height: 60px;
-    padding: 8px 10px;
+  height: 60px;
+  padding: 8px 10px;
 }
 
 .gallery .container-images .images .active .cardImage:hover img {
-    filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 .gallery .container-images .images .active .cardImage span {
-    position: absolute;
-    bottom: 0;
-    height: 0;
-    width: 75%;
-    background-color: #000000cf;
-    transition: all ease 0.4s 0.2s;
-    overflow: hidden;
-    z-index: 2;
+  position: absolute;
+  bottom: 0;
+  height: 0;
+  width: 75%;
+  background-color: #000000cf;
+  transition: all ease 0.4s 0.2s;
+  overflow: hidden;
+  z-index: 2;
 }
 
 .gallery .container-images .images .active .cardImage img {
-    width: 410px;
-    height: 100%;
-    border-radius: 5px;
-    filter: grayscale(1);
-    transition: all ease 1s;
+  width: 410px;
+  height: 100%;
+  border-radius: 5px;
+  filter: grayscale(1);
+  transition: all ease 1s;
 }
 
 .gallery .container-images .images {
-    overflow-x: hidden;
-    height: 95vh;
-    width: 87vw;
-    margin-top: 1rem;
+  overflow-x: hidden;
+  height: 95vh;
+  width: 87vw;
+  margin-top: 1rem;
 }
 
 .gallery .container-images .images.all .active .cardImage img {
-    max-width: 300px;
+  max-width: 300px;
 }

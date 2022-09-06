@@ -1,81 +1,81 @@
 .pricing {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pricing h2 {
-    color: var(--main-color);
-    margin-bottom: 0.6rem;
-    margin-top: 2rem;
+  color: var(--main-color);
+  margin-bottom: 0.6rem;
+  margin-top: 2rem;
 }
 
 .pricing .underline {
-    width: 15rem;
-    margin-bottom: 2rem;
-    height: 1px;
-    background-color: var(--text);
-    opacity: 0.5;
+  width: 15rem;
+  margin-bottom: 2rem;
+  height: 1px;
+  background-color: var(--text);
+  opacity: 0.5;
 }
 
 .pricing-container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
 }
 
 .pricing-container .pricing-plan .pricing-info {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    padding-left: 21px;
-    padding-bottom: 50%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-left: 21px;
+  padding-bottom: 50%;
 }
 
 .pricing-container .pricing-plan .pricing-info h3 {
-    margin-bottom: 2rem;
-    font-size: 22px;
-    color: var(--secondary-color);
+  margin-bottom: 2rem;
+  font-size: 22px;
+  color: var(--secondary-color);
 }
 
 .pricing-container .pricing-plan .pricing-info .value {
-    position: relative;
+  position: relative;
 }
 
 .pricing-container .pricing-plan .pricing-info .value span {
-    position: absolute;
-     color: var(--secondary-color);
+  position: absolute;
+  color: var(--secondary-color);
 }
 
 .pricing-container .pricing-plan .pricing-info .value h4 {
-    font-size: 35px;
-    margin: 0 0 1rem 1.5rem;
-    color: var(--secondary-color);
+  font-size: 35px;
+  margin: 0 0 1rem 1.5rem;
+  color: var(--secondary-color);
 }
 
 .pricing-container .pricing-plan .pricing-info ul {
-    text-align: center;
+  text-align: center;
 }
 
 .pricing-container .pricing-plan .pricing-info ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .pricing-container .pricing-plan .image-standart img {
-    width: 350px;
-    border-radius: 10px;
+  width: 350px;
+  border-radius: 10px;
 }
 
 .pricing-container .pricing-plan .image-premium img {
-    width: 350px;
-    border-radius: 10px;
+  width: 350px;
+  border-radius: 10px;
 }
 
 .pricing-container .pricing-plan .image-platinum img {
-    width: 350px;
-    border-radius: 10px;
+  width: 350px;
+  border-radius: 10px;
 }

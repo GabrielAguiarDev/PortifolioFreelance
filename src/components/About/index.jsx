@@ -18,14 +18,20 @@ const About = () => {
             magni eos quaerat consectetur.
           </p>
           <ul>
-            <li><AiFillCheckCircle /> Mais de 10 anos de experiência</li>
-            <li><AiFillCheckCircle /> 100+ projetos executados com sucesso</li>
-            <li><AiFillCheckCircle /> Qualidade de trabalho excepcional</li>
+            <li>
+              <AiFillCheckCircle /> Mais de 10 anos de experiência
+            </li>
+            <li>
+              <AiFillCheckCircle /> 100+ projetos executados com sucesso
+            </li>
+            <li>
+              <AiFillCheckCircle /> Qualidade de trabalho excepcional
+            </li>
           </ul>
           <div className="underline"></div>
           <div className="about-bottom">
             <img
-              src={process.env.PUBLIC_URL + "/images/signature.svg"}
+              src={process.env.PUBLIC_URL + "/images/about/signature.svg"}
               alt="signature"
               className="signature"
             />
@@ -38,7 +44,7 @@ const About = () => {
         <div className="about-image" data-aos="fade-left">
           <div className="image">
             <img
-              src={process.env.PUBLIC_URL + "/images/profile_2.jpg"}
+              src={process.env.PUBLIC_URL + "/images/about/profile.jpg"}
               alt="profile"
             />
           </div>

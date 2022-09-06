@@ -1,124 +1,124 @@
 @media (max-width: 1200px) {
-    .about {
-        height: 105%;
-    }
+  .about {
+    height: 105%;
+  }
 }
 
 @media (max-width: 1030px) {
-    .about .container-about .about-info h2 {
-        font-size: 21px;
-    }
+  .about .container-about .about-info h2 {
+    font-size: 21px;
+  }
 
-    .about .container-about .about-image .image img {
-        width: 330px;
-    }
+  .about .container-about .about-image .image img {
+    width: 330px;
+  }
 }
 
 @media (max-width: 880px) {
-    .about {
-        height: 135vh;
-    }
+  .about {
+    height: 135vh;
+  }
 
-    .about .container-about {
-        flex-direction: column;
-        padding: 4% 3%;
-    }
+  .about .container-about {
+    flex-direction: column;
+    padding: 4% 3%;
+  }
 
-    .about .container-about .about-info {
-        margin: 0;
-        min-width: 100%;
-    }
+  .about .container-about .about-info {
+    margin: 0;
+    min-width: 100%;
+  }
 
-    .about .container-about .about-info h2 {
-        text-align: center;
-        width: 70%;
-        margin: 0 auto;
-        margin-bottom: 2rem;
-    }
+  .about .container-about .about-info h2 {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
 
-    .about .container-about .about-info p {
-        display: inline-block;
-        width: 45%;
-        margin-bottom: 1rem;
-        margin-right: 10%;
-        font-size: 16px;    
-    }
+  .about .container-about .about-info p {
+    display: inline-block;
+    width: 45%;
+    margin-bottom: 1rem;
+    margin-right: 10%;
+    font-size: 16px;
+  }
 
-    .about .container-about .about-info ul {
-        width: 45%;
-        display: inline-block;
-        margin-bottom: 1rem;
-    }
+  .about .container-about .about-info ul {
+    width: 45%;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
 
-    .about .container-about .about-info ul li svg {
-        font-size: 35px;
-    }
+  .about .container-about .about-info ul li svg {
+    font-size: 35px;
+  }
 
-    .about .container-about .about-info .about-bottom {
-        justify-content: center;
-    }
+  .about .container-about .about-info .about-bottom {
+    justify-content: center;
+  }
 
-    .about .container-about .about-image {
-        margin: 0 auto;
-        margin-top: 3rem;
-    }
+  .about .container-about .about-image {
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
 
-    .about .container-about .about-image .image::before {
-        content: '';
-        position: absolute;
-        top: 20px;
-        right: -5px;
-        left: 159px;
-        bottom: 0;
-        height: 94%;
-        background-color: #2b2b2b;
-    }
+  .about .container-about .about-image .image::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: -5px;
+    left: 159px;
+    bottom: 0;
+    height: 94%;
+    background-color: #2b2b2b;
+  }
 
-    .about .container-about .about-info .about-image .image img {
+  .about .container-about .about-info .about-image .image img {
     width: 300px;
-    }
+  }
 }
 
 @media (max-width: 470px) {
-    .about {
-        height: 145vh;
-    }
+  .about {
+    height: 145vh;
+  }
 
-    .about .container-about {
-        flex-direction: column;
-        padding: 10% 3%;
-    }
+  .about .container-about {
+    flex-direction: column;
+    padding: 10% 3%;
+  }
 
-    .about .container-about .about-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .about .container-about .about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .about .container-about .about-info h2 {
-        width: 90%;
-        margin: 0 auto;
-        margin-bottom: 1rem;
-        text-align: center;
-    }
+  .about .container-about .about-info h2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
 
-    .about .container-about .about-info p {
-        width: 90%;
-        text-align: center;
-        margin: 0 auto;
-    }
+  .about .container-about .about-info p {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
 
-    .about .container-about .about-info ul {
-        width: 90%;
-        margin-top: 1rem;
-    }
+  .about .container-about .about-info ul {
+    width: 90%;
+    margin-top: 1rem;
+  }
 
-    .about .container-about .about-image {
-        margin-top: 4rem;
-    }
+  .about .container-about .about-image {
+    margin-top: 4rem;
+  }
 
-    .about .container-about .about-image .image img {
-        width: 300px;
-    }
+  .about .container-about .about-image .image img {
+    width: 300px;
+  }
 }

@@ -12,21 +12,23 @@ const Home = () => {
     setFadePortfolio(!fadePortfolio);
   }
 
-  // useEffect(() => {
-  //   setTimeout(handleImage, 8000);
-  // });
+  useEffect(() => {
+    setTimeout(handleImage, 8000);
+  });
 
   return (
     <section className="home" name="home">
       <div className="diagonal"></div>
       <div
         className={
-          fadePortfolio === true ? "container-portfolio active" : "container-portfolio"
+          fadePortfolio === true
+            ? "container-portfolio active"
+            : "container-portfolio"
         }
       >
         <div className="portfolio">
           <img
-            src={process.env.PUBLIC_URL + "/images/capa_6.jpg"}
+            src={process.env.PUBLIC_URL + "/images/home/capa_1.jpg"}
             alt="image_front_cover"
           />
           <div className="info">
@@ -66,11 +68,15 @@ const Home = () => {
       </div>
 
       <div
-        className={fadePortfolio === false ? "container-person active" : "container-person"}
+        className={
+          fadePortfolio === false
+            ? "container-person active"
+            : "container-person"
+        }
       >
         <div className="person">
           <img
-            src={process.env.PUBLIC_URL + "/images/capa_4.jpg"}
+            src={process.env.PUBLIC_URL + "/images/home/capa_2.jpg"}
             alt="image_front_cover"
           />
           <div className="info">
