@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { Link } from "react-scroll";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
@@ -7,14 +7,19 @@ import "./responsive.css";
 
 const Home = () => {
   const [fadePortfolio, setFadePortfolio] = useState(false);
+  const [autoSwitch, setAutoSwitch] = useState(false)
 
-  function handleImage() {
+  const handleImage = useCallback(() => {
+    console.log(fadePortfolio);
     setFadePortfolio(!fadePortfolio);
-  }
+    setAutoSwitch(!autoSwitch);
+  }, [fadePortfolio, autoSwitch]);
 
   useEffect(() => {
-    setTimeout(handleImage, 8000);
-  });
+    setTimeout(() => {
+      handleImage();
+    }, 8000)
+  }, [autoSwitch]);
 
   return (
     <section className="home" name="home">
@@ -61,8 +66,8 @@ const Home = () => {
             </div>
           </div>
           <div className="changeImage">
-            <IoIosArrowBack onClick={handleImage} />
-            <IoIosArrowForward onClick={handleImage} />
+            <IoIosArrowBack onClick={() =>  setFadePortfolio(!fadePortfolio)} />
+            <IoIosArrowForward onClick={() =>  setFadePortfolio(!fadePortfolio)} />
           </div>
         </div>
       </div>
@@ -109,8 +114,8 @@ const Home = () => {
             </div>
           </div>
           <div className="changeImage">
-            <IoIosArrowBack onClick={handleImage} />
-            <IoIosArrowForward onClick={handleImage} />
+            <IoIosArrowBack onClick={() =>  setFadePortfolio(!fadePortfolio)} />
+            <IoIosArrowForward onClick={() =>  setFadePortfolio(!fadePortfolio)} />
           </div>
         </div>
       </div>

@@ -5,9 +5,6 @@
 }
 
 @media (max-width: 920px) {
-  footer {
-    margin-top: 5rem;
-  }
 
   footer .parallax {
     flex-direction: column;
@@ -24,6 +21,14 @@
     width: 310px;
     height: 277px;
     margin: 0 auto;
+  }
+
+  footer .parallax .cardFloat .card1.active {
+    animation: showCardResponsive 1s 0s forwards;
+  }
+
+  footer .parallax .cardFloat .card2.active {
+    animation: showCardResponsive 1s 0s forwards;
   }
 
   footer .parallax .cardFloat > div > .card-info .aspas {
@@ -55,6 +60,12 @@
 
   footer .footer-info .footer-bottom p {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  footer {
+    margin-top: 5rem;
   }
 }
 

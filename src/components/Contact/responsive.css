@@ -1,8 +1,4 @@
 @media (max-width: 1140px) {
-  .contact {
-    height: 150vh;
-  }
-
   .contact .container-contact {
     align-items: center;
     display: flex;
@@ -44,7 +40,7 @@
   }
 }
 
-@media (max-width: 365px) {
+@media (max-width: 549px) {
   .contact .diagonal {
     top: -40px;
   }
@@ -57,7 +53,8 @@
     margin-bottom: 0;
   }
 
-  .contact .contact-form {
+  .contact .container-contact .contact-form {
+    height: 550px;
     margin-top: 2rem;
   }
 

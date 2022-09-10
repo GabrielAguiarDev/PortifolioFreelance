@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
   .about {
-    height: 105%;
+    height: 105vh;
   }
 }
 
@@ -16,7 +16,7 @@
 
 @media (max-width: 880px) {
   .about {
-    height: 135vh;
+    height: 150vh;
   }
 
   .about .container-about {
@@ -67,7 +67,7 @@
     content: "";
     position: absolute;
     top: 20px;
-    right: -5px;
+    right: -3px;
     left: 159px;
     bottom: 0;
     height: 94%;

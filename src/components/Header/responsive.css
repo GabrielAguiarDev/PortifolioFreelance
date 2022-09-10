@@ -1,7 +1,10 @@
 @media (max-width: 760px) {
   header .container {
-    margin-left: 10%;
     justify-content: left;
+  }
+
+  header .container .logo {
+    margin-left: 5%;
   }
 
   header .container .menu {
@@ -58,10 +61,6 @@
 }
 
 @media (max-width: 400px) {
-  header .container {
-    margin-left: 1rem;
-  }
-
   header .container ul {
     right: 2rem;
     top: 3rem;

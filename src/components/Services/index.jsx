@@ -57,7 +57,7 @@ const Services = () => {
           data-aos-duration="500"
         >
           <img
-            src={process.env.PUBLIC_URL + "/images/setup.svg"}
+            src={process.env.PUBLIC_URL + "/images/services/setup.svg"}
             alt="lightning setup"
           />
           <h3>Fotografias com setup</h3>
@@ -72,7 +72,7 @@ const Services = () => {
           data-aos-duration="500"
         >
           <img
-            src={process.env.PUBLIC_URL + "/images/video_color.svg"}
+            src={process.env.PUBLIC_URL + "/images/services/video_color.svg"}
             alt="video color grading"
           />
           <h3>Edição de videos</h3>

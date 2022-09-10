@@ -1,5 +1,4 @@
 footer {
-  width: 100vw;
   height: 90vh;
   padding: 0;
   margin-top: 1rem;
@@ -10,7 +9,7 @@ footer .parallax {
   display: flex;
   justify-content: space-around;
   height: 51vh;
-  width: 101%;
+  width: 100%;
   box-shadow: inset 6px 6px 13px 0px #00000057;
   background-image: url("../../../public/images/gallery/parallax/parallax-5.jpg");
   background-position: top center;

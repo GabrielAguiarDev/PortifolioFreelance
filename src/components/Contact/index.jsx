@@ -12,8 +12,8 @@ const Contact = () => {
       <div className="diagonal"></div>
       <div className="container-contact">
         <div className="contact-info">
-          <h2 data-aos="fade-right">Contato</h2>
-          <p data-aos="fade-right" data-aos-delay="200">
+          <h2 data-aos="fade-top">Contato</h2>
+          <p data-aos="fade-top" data-aos-delay="200">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius magni
             aperiam, architecto qui ducimus quidem aliquam.
           </p>
@@ -38,7 +38,7 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-        <div className="contact-form" data-aos="fade-left">
+        <div className="contact-form" data-aos="zoom-in-up">
           <form method="POST">
             <h3>Entrar em contato</h3>
             <input

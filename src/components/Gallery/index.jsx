@@ -18,9 +18,9 @@ const Gallery = () => {
 
   return (
     <section className="gallery" name="gallery">
-      <h2 data-aos="fade-right">Galeria</h2>
+      <h2 data-aos="zoom-in">Galeria</h2>
       <div className="underline" data-aos="fade-up"></div>
-      <ul data-aos="fade-right" data-aos-delay="800">
+      <ul data-aos="zoom-in" data-aos-delay="800">
         <li
           className={gallery === "all" ? "active" : ""}
           onClick={() => {

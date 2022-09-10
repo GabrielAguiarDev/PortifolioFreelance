@@ -33,7 +33,7 @@ const Footer = () => {
             Entre em contato
           </Link>
         </div>
-        <div className="cardFloat" data-aos="fade-left">
+        <div className="cardFloat" data-aos="zoom-in-up">
           <div className={card === true ? "card1 active" : "card1"}>
             <div className="card-info">
               <img

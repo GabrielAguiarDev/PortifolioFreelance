@@ -1,6 +1,7 @@
 .contact {
   position: relative;
   display: flex;
+  height: 100%;
   flex-direction: column;
   padding: 5% 0;
 }
@@ -10,7 +11,7 @@
   top: -140px;
   left: 0;
   height: 85vh;
-  width: 100vw;
+  width: 100%;
   background-color: var(--main-color);
   transform: skewY(-9deg);
   z-index: -1;
@@ -64,7 +65,7 @@
 .contact .container-contact .contact-form {
   position: relative;
   width: 30vw;
-  height: 71vh;
+  height: 510px;
   z-index: 2;
 }
 
@@ -85,7 +86,7 @@
   content: "";
   position: absolute;
   top: 69px;
-  right: -41px;
+  right: -35px;
   left: 60px;
   bottom: 0;
   height: 94%;
@@ -157,7 +158,6 @@
   border-radius: 3px;
   width: 100%;
   height: 129px;
-  margin-bottom: 1rem;
   border-bottom: 2px solid #82828291;
   background-color: transparent;
   color: var(--text);
@@ -191,6 +191,9 @@
 }
 
 .contact .container-contact .contact-form form button {
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
   height: 40px;
   width: 11rem;
   border-radius: 5px;
