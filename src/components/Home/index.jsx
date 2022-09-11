@@ -10,7 +10,6 @@ const Home = () => {
   const [autoSwitch, setAutoSwitch] = useState(false)
 
   const handleImage = useCallback(() => {
-    console.log(fadePortfolio);
     setFadePortfolio(!fadePortfolio);
     setAutoSwitch(!autoSwitch);
   }, [fadePortfolio, autoSwitch]);
