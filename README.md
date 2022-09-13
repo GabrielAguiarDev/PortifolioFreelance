@@ -1,2 +1,2 @@
 # Portifolio Freelance
-### Em desenvolvimento ...
+### Projeto seguindo para a última fase.
